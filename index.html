@@ -1,105 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>N Desai | Data Analyst Portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
-    <script defer src="script.js"></script>
-    <!-- Google Analytics (replace 'G-XXXXXXXXXX' with your code) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>N Desai | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 </head>
 <body>
-    <header>
-        <h1>N Desai</h1>
-        <nav>
-            <a href="#profile">Profile</a>
-            <a href="#summary">Summary</a>
-            <a href="#projects">Projects</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header>
+    <h1>N Desai</h1>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#summary">Summary</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!-- Profile -->
-    <section class="container visible" id="profile">
-        <img src="profile.jpg" alt="Niranjan Desai" class="profile-pic"/>
-        <h2>Hello, I'm Niranjan</h2>
-        <p>Data Analyst | AI/ML Enthusiast</p>
-        <button id="toggle-mode">🌙 Toggle Dark Mode</button>
-        <a href="Niranjan_Desai_CV.pdf" download class="cv-button">📄 Download CV</a>
-    </section>
+  <!-- Profile -->
+  <section class="container visible" id="profile">
+    <img src="profile.jpg" alt="Niranjan Desai" class="profile-pic"/>
+    <h2>Hello, I'm Niranjan</h2>
+    <p>Data Analyst | AI/ML Specialist — Turning data into actionable insights and intelligent solutions.</p>
+    <button id="toggle-mode">🌙 Toggle Dark Mode</button>
+    <a href="Niranjan_Desai_CV.pdf" download class="cv-button">📄 Download CV</a>
+  </section>
 
-    <!-- Summary -->
-    <section class="container" id="summary">
-        <h2>Summary</h2>
-        <p>Data Analyst with 1+ year of experience and a master's in Data Analytics... actively seeking roles in Ireland.</p>
-    </section>
+  <!-- Summary -->
+  <section class="container" id="summary">
+    <h2>Summary</h2>
+    <p>Data Analyst with 1+ year experience and a Master’s in Data Analytics, merging business insights with machine learning expertise. Skilled in Python, SQL, Power BI, predictive modeling, and data visualization. Passionate about delivering data-driven strategies and real-time analytics. Actively seeking Data Science/ML roles in Ireland.</p>
+  </section>
 
-    <!-- Projects -->
-    <section class="container" id="projects">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <!-- Example project card with modal trigger -->
-            <div class="project-card" data-modal="modal1">
-                <img src="zomato_dashboard.gif" alt="Zomato Dashboard">
-                <h3>Zomato BI Dashboard</h3>
-                <p>Global KPIs using Power BI.</p>
-            </div>
+  <!-- Experience -->
+  <section class="container" id="experience">
+    <h2>Experience</h2>
+    <h3>Data Analyst | Indian Print (Jan 2020 – Jul 2021)</h3>
+    <ul>
+      <li>Analyzed readership & subscriber data to optimize content strategies.</li>
+      <li>Built XGBoost time series model; improved targeting by 15%.</li>
+      <li>Created dynamic dashboards using Power BI & Python.</li>
+      <li>Performed large-scale data cleaning and modeling with SQL & Python.</li>
+      <li>Delivered models with 80%+ F1-score for retail analytics.</li>
+      <li>Used Google Analytics for A/B testing and performance insights.</li>
+    </ul>
+  </section>
 
-            <!-- Modal -->
-            <div id="modal1" class="modal">
-                <div class="modal-content">
-                    <span class="close" data-modal="modal1">&times;</span>
-                    <h3>Zomato BI Dashboard</h3>
-                    <p>Interactive dashboard built in Power BI, showing KPIs like DAU, MAU, churn rates, and subscription revenue. Automated data refresh and filters.</p>
-                    <img src="zomato_dashboard_large.png" alt="Zomato Dashboard Large">
-                </div>
-            </div>
-            
-            <!-- Repeat similar blocks for other projects -->
-            <div class="project-card" data-modal="modal2">
-                <img src="house_price.gif" alt="House Price Prediction">
-                <h3>House Price Prediction</h3>
-                <p>7 ML models tested.</p>
-            </div>
-            <div id="modal2" class="modal">
-                <div class="modal-content">
-                    <span class="close" data-modal="modal2">&times;</span>
-                    <h3>House Price Prediction</h3>
-                    <p>Comparative analysis of Linear Regression, Random Forest, XGBoost... Best R² = 0.91.</p>
-                    <img src="house_price_large.png" alt="House Price Large">
-                </div>
-            </div>
-            <!-- Add cards for Retail Sales Forecast and Customer Segmentation similarly -->
+  <!-- Skills -->
+  <section class="container" id="skills">
+    <h2>Skills</h2>
+    <h3>Technical</h3>
+    <ul>
+      <li>Python (Pandas, NumPy, Scikit-learn), SQL, R (Basic)</li>
+      <li>Power BI, Tableau, Matplotlib, Seaborn, SPSS</li>
+      <li>MySQL, MongoDB, PostgreSQL, Oracle</li>
+      <li>GitHub, Postman, Microsoft 365, Excel</li>
+    </ul>
+    <h3>Core & Soft</h3>
+    <ul>
+      <li>EDA, Feature Engineering, Predictive Modeling</li>
+      <li>Workflow Automation, Agile, Business Intelligence</li>
+      <li>Analytical Thinking, Problem-solving, Team Collaboration</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section class="container" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" data-modal="modal1">
+        <img src="zomato_dashboard.gif" alt="Zomato Dashboard">
+        <h3>Zomato BI Dashboard</h3>
+        <p>Global KPIs in Power BI</p>
+      </div>
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <span class="close" data-modal="modal1">&times;</span>
+          <h3>Zomato BI Dashboard</h3>
+          <p>Interactive Power BI dashboard tracking DAU, MAU, churn, subscriptions with auto-refresh.</p>
+          <img src="zomato_dashboard_large.png" alt="">
         </div>
-    </section>
+      </div>
 
-    <!-- Blog -->
-    <section class="container" id="blog">
-        <h2>Blog</h2>
-        <article class="blog-post">
-            <h3>Exploring ARIMA vs Prophet for Time-Series Forecasting</h3>
-            <p>An in-depth comparison of ARIMA, SARIMA, and Prophet models for sales prediction.</p>
-            <a href="blog/arima-vs-prophet.html" target="_blank">Read More →</a>
-        </article>
-        <!-- Add more posts similarly -->
-    </section>
+      <div class="project-card" data-modal="modal2">
+        <img src="house_price.gif" alt="House Price Prediction">
+        <h3>House Price Prediction</h3>
+        <p>7 ML Models Tested</p>
+      </div>
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <span class="close" data-modal="modal2">&times;</span>
+          <h3>House Price Prediction</h3>
+          <p>Compared Linear Regression, Random Forest, XGBoost; best R² = 0.91.</p>
+          <img src="house_price_large.png" alt="">
+        </div>
+      </div>
 
-    <!-- Contact -->
-    <section class="container" id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:desainiranjan10@gmail.com">desainiranjan10@gmail.com</a></p>
-        <p>Phone: <a href="tel:+353830885353">+353 830 885353</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/niranjandesai321" target="_blank">niranjandesai321</a></p>
-        <p>GitHub: <a href="https://github.com/niranjandesai321" target="_blank">github.com/niranjandesai321</a></p>
-        <p>Stamp 1 Visa – Work Eligible</p>
-    </section>
+      <div class="project-card" data-modal="modal3">
+        <img src="retail_sales.gif" alt="Retail Sales Forecast">
+        <h3>Retail Sales Forecast</h3>
+        <p>ARIMA/SARIMA Forecast</p>
+      </div>
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <span class="close" data-modal="modal3">&times;</span>
+          <h3>Retail Sales Forecast</h3>
+          <p>Used ARIMA, SARIMA & Prophet to forecast multi-store sales and reduced forecasting error by 18%.</p>
+          <img src="retail_sales_large.png" alt="">
+        </div>
+      </div>
+
+      <div class="project-card" data-modal="modal4">
+        <img src="customer_segmentation.gif" alt="Customer Segmentation">
+        <h3>Customer Segmentation</h3>
+        <p>K-Means Clustering</p>
+      </div>
+      <div id="modal4" class="modal">
+        <div class="modal-content">
+          <span class="close" data-modal="modal4">&times;</span>
+          <h3>Customer Segmentation</h3>
+          <p>Used K‑Means to discover user segments and optimize targeting campaigns.</p>
+          <img src="customer_segmentation_large.png" alt="">
+        </div>
+      </div>
+
+      <div class="project-card" data-modal="modal5">
+        <img src="arima_vs_prophet.gif" alt="ARIMA vs Prophet">
+        <h3>ARIMA vs Prophet Comparison</h3>
+        <p>Time-series model comparison</p>
+      </div>
+      <div id="modal5" class="modal">
+        <div class="modal-content">
+          <span class="close" data-modal="modal5">&times;</span>
+          <h3>ARIMA vs Prophet Comparison</h3>
+          <p>Comparison of ARIMA, SARIMA, and Prophet models with visualizations and accuracy evaluation — converted from blog to project card.</p>
+          <img src="arima_vs_prophet_large.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="container" id="education">
+    <h2>Education</h2>
+    <h3>MSc Data Analytics, National College of Ireland (2021–2022)</h3>
+    <ul>
+      <li>2:1 Honours – Deep Learning project on seafood classification using MobileNet & VGG16</li>
+      <li>Relevant courses: BI, Machine Learning, Predictive Analytics, Optimization</li>
+    </ul>
+    <h3>BSc IT, Mumbai University (2017–2020)</h3>
+    <ul>
+      <li>Distinction, CGPA 8.5</li>
+      <li>Studied Python, C++, Java, Data Structures, DBMS, AI</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section class="container" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:desainiranjan10@gmail.com">desainiranjan10@gmail.com</a></p>
+    <p>Phone: <a href="tel:+353830885353">+353 830 885353</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/niranjandesai321" target="_blank">niranjandesai321</a></p>
+    <p>GitHub: <a href="https://github.com/niranjandesai321" target="_blank">github.com/niranjandesai321</a></p>
+    <p>Stamp 1 Visa – Work Eligible</p>
+  </section>
+
 </body>
 </html>
