@@ -24,11 +24,12 @@ header nav a:hover { color:#1abc9c; }
 
 /* Profile */
 .profile-pic {
-  max-width: 100%;
-  height: auto;
+  float: right;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin: 0 0 20px 20px; /* margin-left to add space from content */
   border: 3px solid #1abc9c;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
