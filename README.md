@@ -1,2 +1,2 @@
 # MyPortfolio
-# this is my protfilio made for fun
+# this is my protfilio 
