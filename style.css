@@ -22,17 +22,28 @@ header nav a { color:white; text-decoration:none; margin:0 10px; font-weight:bol
 body.dark-mode header nav a { color:#eee; }
 header nav a:hover { color:#1abc9c; }
 
-/* Profile */
-.profile-pic {
-  float: right;
+/* Profile Section Layout */
+.profile-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-content .text {
+  flex: 1 1 60%;
+}
+
+.profile-content .profile-pic {
   width: 140px;
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 0 20px 20px; /* margin-left to add space from content */
   border: 3px solid #1abc9c;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 /*.profile-section { text-align:center; }
 .profile-pic {
