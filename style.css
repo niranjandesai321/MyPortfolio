@@ -32,7 +32,7 @@ header nav a:hover { color:#1abc9c; }
 }
 
 .profile-content .text {
-  flex: 1 1 60%;
+  flex: 1;
 }
 
 .profile-content .profile-pic {
