@@ -22,25 +22,13 @@ header nav a { color:white; text-decoration:none; margin:0 10px; font-weight:bol
 body.dark-mode header nav a { color:#eee; }
 header nav a:hover { color:#1abc9c; }
 
-<<<<<<< HEAD
+<<
 
 
 
-/*.profile-section*/ { text-align:center; }
-=======
-.profile-pic {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-  border: 3px solid #1abc9c;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-/* Profile 
+/* Profile */
 .profile-section { text-align:center; }
->>>>>>> 9e8be3d (New Changes)
+
 .profile-pic {
   width:140px; height:140px; border-radius:50%; object-fit:cover; margin-bottom:20px;
   border:3px solid #1abc9c; box-shadow:0 4px 10px rgba(0,0,0,0.3);
