@@ -22,7 +22,6 @@ header nav a { color:white; text-decoration:none; margin:0 10px; font-weight:bol
 body.dark-mode header nav a { color:#eee; }
 header nav a:hover { color:#1abc9c; }
 
-<<
 
 
 
@@ -34,10 +33,25 @@ header nav a:hover { color:#1abc9c; }
   border:3px solid #1abc9c; box-shadow:0 4px 10px rgba(0,0,0,0.3);
 }*/
 #toggle-mode, .cv-button {
-  margin:10px; padding:8px 16px; border:none; border-radius:4px;
-  background:#1abc9c; color:#fff; cursor:pointer; transition:background 0.3s ease;
+  margin: 10px;
+  padding: 8px 16px;
+  border: 1px solid black;        /* Specify width and style */
+  border-radius: 4px;
+  background: #1abc9c;
+  color: #1a1919;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
-#toggle-mode:hover, .cv-button:hover { background:#149a7c; }
+
+#toggle-mode:hover, .cv-button:hover {
+  background: #149a7c;
+}
+
+/*#toggle-mode, .cv-button {
+  margin:10px; padding:8px 16px; border:black; border-radius:4px;
+  background:#1abc9c; color:#e89090; cursor:pointer; transition:background 0.3s ease;
+}
+#toggle-mode:hover, .cv-button:hover { background:#149a7c; }*/
 
 /* Projects Grid */
 .projects-grid {
